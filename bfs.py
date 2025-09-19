@@ -21,7 +21,7 @@ def bfs(root):
             print(curr.val)
             if curr.left:
                 queue.append(curr.left)
-            else:
+            if curr.right:
                 queue.append(curr.right)
 
 
